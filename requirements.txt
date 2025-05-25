@@ -1,0 +1,10 @@
+GPy==1.13.2
+matplotlib==3.10.3
+numpy==2.2.5
+opencv_contrib_python==4.10.0.84
+opencv_python==4.10.0.84
+pandas==2.2.3
+protobuf==6.30.2
+scikit_learn==1.6.1
+scipy==1.15.3
+tensorflow_intel==2.18.0
