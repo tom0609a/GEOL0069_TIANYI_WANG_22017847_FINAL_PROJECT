@@ -54,9 +54,9 @@ The project follows these conceptual steps:
 
 └── Requirements.txt 
 
-└──
+└── Assessment of the environmental cost.txt
 
-└──
+└── Youtube video description link
 
 └── LICENSE
 
