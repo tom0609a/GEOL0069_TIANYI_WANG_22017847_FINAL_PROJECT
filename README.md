@@ -41,7 +41,9 @@ The project follows these conceptual steps:
 
 ├── README.md   
 
+
 ├── Project.ipynb 
+
 ├── figures/ 
 ├── data/ 
 │   ├── s2_zoomed_data.npz
