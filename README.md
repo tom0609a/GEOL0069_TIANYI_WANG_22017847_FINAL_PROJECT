@@ -43,11 +43,17 @@ The project follows these conceptual steps:
 
 
 ├── Project.ipynb 
-├── figures/ 
+
+├── figures/
+
 ├── data/ 
+
 │   ├── s2_zoomed_data.npz
+
 │   └── s3_zoomed_data.npz
+
 └── requirements.txt 
+
 └── LICENSE
 
 
