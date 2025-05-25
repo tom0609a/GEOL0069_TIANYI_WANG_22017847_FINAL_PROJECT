@@ -43,7 +43,6 @@ The project follows these conceptual steps:
 
 
 ├── Project.ipynb 
-
 ├── figures/ 
 ├── data/ 
 │   ├── s2_zoomed_data.npz
