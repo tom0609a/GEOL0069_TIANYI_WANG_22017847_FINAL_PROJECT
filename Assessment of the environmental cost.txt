@@ -1,1 +1,11 @@
-assessment of the environmental cost
+Assessment of the environmental cost
+
+While this project focuses on leveraging satellite data and machine learning for environmental monitoring, it is crucial to acknowledge the environmental footprint associated with the computational resources and data infrastructure required. Assessing this cost provides a more complete picture of the project's overall impact.
+
+The primary environmental cost in this project stems from the energy consumed during data processing and model training. This includes:
+
+Data Acquisition and Preprocessing: Downloading, storing, and initially processing large volumes of Sentinel-2 and Sentinel-3 data requires significant energy for data centers and local computing resources. Steps like radiometric calibration, atmospheric correction, and geometric correction are computationally intensive.
+Imagery Alignment: Algorithms like Auto-correlation, Phase Correlation, and ECC, especially when applied to large images or numerous pairs, contribute to the computational load and thus energy consumption.
+Training Data Creation: Running unsupervised classification (like K-Means) on S2 data and performing KDTree-based spatial aggregation onto the S3 grid involves considerable computation.
+Model Training: Training regression models (Polynomial Regression, Neural Networks, Gaussian Processes) is a computationally demanding process, particularly for Neural Networks and Gaussian Processes, which can require extensive iterative optimization. The energy consumed here depends on the model complexity, dataset size, and the hardware used (CPUs, GPUs).
+The energy source powering the data centers and computing resources directly impacts the carbon footprint. Utilizing data centers powered by renewable energy sources significantly reduces this impact compared to those relying on fossil fuels.
