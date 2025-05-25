@@ -52,7 +52,11 @@ The project follows these conceptual steps:
 
 │   └── s3_zoomed_data.npz
 
-└── requirements.txt 
+└── Requirements.txt 
+
+└──
+
+└──
 
 └── LICENSE
 
